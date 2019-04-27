@@ -1,0 +1,32 @@
+{
+  "name": "@quickts/shuffle",
+  "version": "1.0.0",
+  "description": "shuffle",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha -r ts-register --recursive -R spec test/*.ts",
+    "clean": "rimraf dist",
+    "build": "rimraf dist && tsc -d"
+  },
+  "keywords": ["quickts", "shuffle"],
+  "author": "quickts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.6",
+    "mocha": "^6.1.4",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quickts/shuffle.git"
+  },
+  "bugs": "https://github.com/quickts/shuffle/issues",
+  "homepage": "https://github.com/quickts/shuffle#readme",
+  "files": [
+    "dist"
+  ]
+}
