@@ -8,16 +8,19 @@
     "clean": "rimraf dist",
     "build": "rimraf dist && tsc -d"
   },
-  "keywords": ["quickts", "shuffle"],
+  "keywords": [
+    "quickts",
+    "shuffle"
+  ],
   "author": "quickts",
   "license": "MIT",
   "devDependencies": {
-    "@types/mocha": "^5.2.6",
-    "@types/node": "^11.13.6",
-    "mocha": "^6.1.4",
-    "rimraf": "^2.6.3",
-    "ts-node": "^8.1.0",
-    "typescript": "^3.4.4"
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.11.2",
+    "mocha": "^6.2.2",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
   },
   "dependencies": {},
   "repository": {
